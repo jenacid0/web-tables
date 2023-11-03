@@ -1,6 +1,7 @@
 table {
     border-collapse: collapse;
     border: 20px groove gray;
+    margin: 1px;
 }
 
 th,
@@ -18,7 +19,7 @@ caption {
 }
 
 table col#firstCol {
-    background-color: rgb(228, 130, 198);
+    background-color: rgb(98, 107, 228);
     width: 150px;
 }
 
@@ -27,5 +28,5 @@ table col#hourCols {
 }
 
 table thead {
-    background-color: aqua;
+    background-color: rgb(228, 98, 169);
 }

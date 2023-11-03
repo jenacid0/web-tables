@@ -1,12 +1,18 @@
 html {
     width: 100%;
+    background-color:lightsteelblue;
 }
 
 body {
-    width: 95%;
-    margin: 0px auto;
+    width: 100%;
+    margin: 10px;
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
     font-size: 0.8em;
+}
+
+header {
+    margin: 20px;
+    width: 100%;
 }
 
 h1 {
