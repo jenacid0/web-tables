@@ -4,10 +4,11 @@ html {
 }
 
 body {
-    width: 100%;
+    width: 98%;
     margin: 10px;
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
     font-size: 0.8em;
+    text-align: center;
 }
 
 header {
