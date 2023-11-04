@@ -1,32 +1,43 @@
 table {
     border-collapse: collapse;
-    border: 20px groove rgb(83, 13, 54);
-    margin: 1px;
+    border: 20px groove #385552;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 th,
 td {
-    border: 1px solid gray;
+    border: 1px solid rgb(156, 155, 155);
     padding: 5px;
-    text-align: left;
-    vertical-align:middle;
+    text-align: center;
+    vertical-align: middle;
+    color: mintcream;
 }
 
 caption {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
     caption-side: top;
-    text-align: left;
+    text-align: center;
     font-size: 1.5em;
+    color:#f7d0cf	;
 }
 
 table col#firstCol {
-    background-color: rgb(111, 118, 206);
-    width: 150px;
+    background-color:#8f3e5c;
+    width: 140px;
 }
 
 table col#hourCols {
-    width: 85px;
+    width: 78px;
 }
 
 table thead {
-    background-color: rgb(216, 133, 179);
+    background-color:#cd6d71;
 }
+
+table thead tr {
+    height: 25px;
+}	
