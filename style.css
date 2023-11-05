@@ -3,10 +3,10 @@ html {
 }
 
 body {
-    margin: 50px;
     font-family: Calibri, 'Trebuchet MS', sans-serif;
     font-size: 0.9em;
     text-align: center;
+    margin: 20px;
 }
 
 header {
