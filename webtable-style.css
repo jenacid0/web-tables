@@ -1,7 +1,7 @@
 table {
     border-collapse: collapse;
     border: 20px groove #46585f;
-    width: 90%;
+    width: 88%;
 }
 
 table.center {
@@ -24,10 +24,12 @@ th {
 
 caption {
     font-family: Calibri, 'Trebuchet MS', sans-serif;
-    caption-side: top;
-    text-align: center;
+    caption-side: left;
+    text-align: left;
     font-size: 1.5em;
-    color:#f7d0cf	;
+    color:#f7d0cf;
+    margin-left: 10px;
+    padding-left: 10px;
 }
 
 table col#firstCol {

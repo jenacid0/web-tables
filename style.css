@@ -5,17 +5,19 @@ html {
 body {
     font-family: Calibri, 'Trebuchet MS', sans-serif;
     font-size: 0.9em;
-    text-align: center;
+    text-align: Left;
     margin: 20px;
 }
 
 header {
     margin: 10px;
+    text-align: Left;
     color: #661c37	;
     font-size: 1em;
-    padding: 20px;
+    padding: 10px;
 }
 
 h1 {
     font-size: 2em;
+    text-align: Left;
 }
