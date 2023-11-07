@@ -1,25 +1,29 @@
 table {
     border-collapse: collapse;
-    border: 20px groove #46585f;
-    width: 88%;
 }
 
-table.center {
-    margin-left: auto;
-    margin-right: auto;
+table.schedule {
+    border: 20px groove #4F69C6;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 th,
 td {
-    border: 3px dotted rgba(243, 180, 180, 0.966);
+    border: 3px solid #4F69C6;
     padding: 5px;
     text-align: center;
     vertical-align: middle;
-    color: whitesmoke;
 }
 
-th {
-    height: 30px;
+thead {
+    background-color: #d1567b;
+    color: white;
+}
+
+tfoot {
+    background-color: #676768;
+    color: white;
 }
 
 caption {
@@ -27,13 +31,11 @@ caption {
     caption-side: left;
     text-align: left;
     font-size: 1.5em;
-    color:#f7d0cf;
-    margin-left: 10px;
-    padding-left: 10px;
+    color: #6456B7;
 }
 
 table col#firstCol {
-    background-color:#8f3e5c;
+    background-color: #ffd561;
     width: 140px;
 }
 
@@ -41,10 +43,16 @@ table col#hourCols {
     width: 78px;
 }
 
-table thead {
-    background-color:#cd6d71;
+td.sleep {
+    background-color: #bbbbbb;
 }
 
-table thead tr {
-    height: 25px;
-}	
+th.top {
+    background-color: rgb(158, 178, 231);
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+td.lunch {
+    background-color: rgb(253, 150, 103);
+}
